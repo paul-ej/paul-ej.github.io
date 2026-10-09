@@ -168,6 +168,11 @@ body {
   color: #c0c9c1;
 }
 
+.post-content img {
+  max-width: min(100%, 600px);
+  height: auto;
+}
+
 .post-content code {
   padding: 0.12em 0.35em;
   border: 1px solid var(--line);
