@@ -2,8 +2,8 @@
 layout: post
 title: "Setting Up Self-Service App Requests Using IOTA and Iru"
 date: 2026-10-09
-categories: mdm apple automation
-tags: [iota, iru, self-service, app-requests, mdm]
+categories: mdm automation
+excerpt: "A walkthrough on giving end users the power to request the apps they need — without flooding IT with tickets."
 ---
 
 In this post, I'll walk through how to set up self-service app requests using [IOTA](https://iota.build) and [Iru](https://iru.build), giving your end users the ability to request the apps they need — without flooding your IT team with tickets.
@@ -34,23 +34,23 @@ Before getting started, you'll need:
 
 ## Setting It Up
 
-### Step 1: Configure IOTA
+### Step 1 — Configure IOTA
 
 <!-- Walk through the IOTA configuration -->
 
-### Step 2: Configure Iru
+### Step 2 — Configure Iru
 
 <!-- Walk through the Iru configuration -->
 
-### Step 3: Connect the Two
+### Step 3 — Connect the Two
 
 <!-- How to link IOTA and Iru together -->
 
-### Step 4: Define Your App Catalogue
+### Step 4 — Define Your App Catalogue
 
 <!-- Setting up which apps are available for request -->
 
-### Step 5: Set Up Approval Workflows
+### Step 5 — Set Up Approval Workflows
 
 <!-- Configure who approves what, auto-approval rules, etc. -->
 
@@ -65,7 +65,3 @@ Before getting started, you'll need:
 ## Wrapping Up
 
 <!-- Summary and closing thoughts -->
-
----
-
-*Got questions or feedback? Find me on [GitHub](https://github.com/paul-ej).*

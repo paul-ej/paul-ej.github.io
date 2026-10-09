@@ -1,4 +1,5 @@
-title: Apple | Device Management | Cloud Security
+title: paul-ej.dev
+tagline: Apple · Device Management · Cloud Security
 author: Paul E-J
 url: "https://paul-ej.dev"
 baseurl: ""
@@ -12,13 +13,13 @@ permalink: /:year/:month/:day/:title/
 # Show post excerpts on the home page
 show_excerpts: true
 
-# Only show About in the nav (keeps it clean)
+# Only show About in the nav
 header_pages:
   - about.md
 
 # Minima theme settings
 minima:
-  skin: classic
+  skin: dark
   social_links:
     - { platform: github, user_url: "https://github.com/paul-ej" }
 

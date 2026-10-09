@@ -1,0 +1,187 @@
+---
+---
+
+@import
+  "minima/skins/dark",
+  "minima/initialize";
+
+// ── Typography ──────────────────────────────────────────
+html {
+  font-size: 17px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.01em;
+  line-height: 1.7;
+}
+
+// ── Site header ─────────────────────────────────────────
+.site-header {
+  border-top: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+}
+
+.site-title {
+  font-weight: 600 !important;
+  letter-spacing: -0.02em;
+  font-size: 1.1rem !important;
+}
+
+.site-nav .page-link {
+  font-weight: 500;
+  font-size: 0.9rem;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+
+// ── Content ─────────────────────────────────────────────
+.page-content {
+  padding-top: 3rem;
+}
+
+.wrapper {
+  max-width: 720px;
+}
+
+// ── Home page ───────────────────────────────────────────
+.home {
+  .post-list-heading {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    opacity: 0.5;
+    margin-bottom: 1rem;
+  }
+
+  .post-list {
+    li {
+      margin-bottom: 2.5rem;
+      padding-bottom: 2.5rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+
+  .post-meta {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    opacity: 0.4;
+    margin-bottom: 0.25rem;
+  }
+
+  .post-link {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 1.3;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .post-excerpt {
+    opacity: 0.65;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+}
+
+// ── Post pages ──────────────────────────────────────────
+.post-header {
+  margin-bottom: 2.5rem;
+}
+
+.post-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
+}
+
+.post-content {
+  h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  h3 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    margin-top: 2rem;
+  }
+
+  p {
+    margin-bottom: 1.4em;
+  }
+
+  code {
+    font-size: 0.85em;
+    padding: 0.15em 0.4em;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.08);
+  }
+
+  pre {
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    padding: 1.2em;
+  }
+
+  blockquote {
+    border-left-color: rgba(255, 255, 255, 0.15);
+    opacity: 0.75;
+    font-style: normal;
+  }
+
+  ul, ol {
+    li {
+      margin-bottom: 0.4em;
+    }
+  }
+}
+
+// ── Links ───────────────────────────────────────────────
+a {
+  transition: opacity 0.15s ease;
+
+  &:hover {
+    opacity: 0.7;
+    text-decoration: none;
+  }
+}
+
+// ── Footer ──────────────────────────────────────────────
+.site-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  padding-top: 2rem;
+
+  .footer-heading {
+    display: none;
+  }
+
+  .footer-col-wrapper {
+    font-size: 0.8rem;
+    opacity: 0.4;
+  }
+}
+
+// ── Selection ───────────────────────────────────────────
+::selection {
+  background: rgba(0, 122, 255, 0.3);
+}
