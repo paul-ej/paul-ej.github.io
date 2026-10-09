@@ -1,4 +1,50 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://paul-ej.dev/sitemap.xml
+
+# ── AI Crawlers ──────────────────────────────────────────
+# OpenAI
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+# Common Crawl (used for training data)
+User-agent: CCBot
+Disallow: /
+
+# Google AI training
+User-agent: Google-Extended
+Disallow: /
+
+# Anthropic
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Disallow: /
+
+# Cohere
+User-agent: cohere-ai
+Disallow: /
+
+# Meta
+User-agent: FacebookBot
+Disallow: /
+
+# Bytedance
+User-agent: Bytespider
+Disallow: /
+
+# Apple Intelligence
+User-agent: Applebot-Extended
+Disallow: /
+
+# Scrapers commonly used for AI datasets
+User-agent: img2dataset
+Disallow: /
