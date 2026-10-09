@@ -1,5 +1,5 @@
-title: Paul E-J's Ramblings
-description: All things MDM, Apple, security and a bunch inbetween
+title: Apple | Device Management | Cloud Security
+author: Paul E-J
 url: "https://paul-ej.dev"
 baseurl: ""
 
@@ -8,6 +8,13 @@ theme: minima
 # Build settings
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
+
+# Show post excerpts on the home page
+show_excerpts: true
+
+# Only show About in the nav (keeps it clean)
+header_pages:
+  - about.md
 
 # Minima theme settings
 minima:
