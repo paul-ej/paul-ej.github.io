@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+description: "About Paul E-J — writing about Apple device management, MDM, cloud security, and automation."
 ---
 
 I'm Paul — I work across Apple device management, cloud security, and the tooling that ties it all together.

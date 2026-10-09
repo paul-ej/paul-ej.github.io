@@ -1,6 +1,8 @@
 title: paul-ej.dev
 tagline: Apple · Device Management · Cloud Security
+description: "Walkthroughs and deep dives on Apple device management, MDM, cloud security, identity, and automation — by Paul E-J."
 author: Paul E-J
+lang: en
 url: "https://paul-ej.dev"
 baseurl: ""
 
@@ -27,6 +29,7 @@ minima:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Exclude from processing
 exclude:

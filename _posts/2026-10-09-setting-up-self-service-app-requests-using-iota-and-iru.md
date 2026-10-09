@@ -3,6 +3,7 @@ layout: post
 title: "Setting Up Self-Service App Requests Using IOTA and Iru"
 date: 2026-10-09
 categories: mdm automation
+description: "How to set up self-service app requests using IOTA and Iru so end users can request the apps they need without flooding IT with tickets."
 excerpt: "A walkthrough on giving end users the power to request the apps they need — without flooding IT with tickets."
 ---
 
