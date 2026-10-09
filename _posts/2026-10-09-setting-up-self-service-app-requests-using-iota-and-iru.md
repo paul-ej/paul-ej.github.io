@@ -35,7 +35,6 @@ Easy to install and get going, it's an invaluable tool for managing Iru. I perso
 
 That repo-to-tenant loop is the foundation this request pipeline builds on: app requests add a reviewed recipe to the repo, then IOTA handles the installer upload while IruCtl continues to manage the rest of the tenant configuration.
 
-![IruCtl CI flow showing pull request validation, deployment from the main branch, and console changes returning through a sync pull request](/assets/images/iru-app-request/iructl-in-ci.png)
 
 ## The workflow
 
