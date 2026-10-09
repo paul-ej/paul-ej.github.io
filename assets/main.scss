@@ -175,9 +175,24 @@ a {
     display: none;
   }
 
+  // Hide the description column — no need to repeat the tagline
+  .footer-col-1,
+  .footer-col-2 {
+    display: none;
+  }
+
+  .footer-col-3 {
+    width: 100%;
+    text-align: center;
+  }
+
   .footer-col-wrapper {
     font-size: 0.8rem;
     opacity: 0.4;
+  }
+
+  p {
+    margin-bottom: 0;
   }
 }
 
