@@ -1,10 +1,9 @@
 ---
 ---
 
-// Minima 2.5 is the version used by GitHub Pages. Keep its structural styles,
+// Minima 2.5 is the version used by GitHub Pages. Import its base stylesheet,
 // then apply the site's visual system below.
-@import "minima/skins/classic";
-@import "minima/initialize";
+@import "minima";
 
 :root {
   color-scheme: dark;
@@ -57,6 +56,11 @@ body {
   font-weight: 550;
   letter-spacing: 0.01em;
   transition: color 160ms ease;
+}
+
+.site-nav {
+  background-color: var(--page);
+  border-color: var(--line);
 }
 
 .site-nav .page-link:hover,
